@@ -14,9 +14,6 @@ html {
     box-sizing: inherit;
 }
 
-
-
-
 body {
     font-family: var(--main-font), 'sans-serif';
     margin: 0;
@@ -24,6 +21,7 @@ body {
     background-color: var(--main-bg);
     background-image: url('../assets/img/bonfire_mobile.jpg');
     background-repeat: no-repeat;
+    background-size: 100% auto;
     background-position: 0 100%;
     color: whitesmoke;
 }
