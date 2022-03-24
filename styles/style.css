@@ -22,7 +22,7 @@ body {
     background-image: url('../assets/img/bonfire_mobile.jpg');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 0 100%;
+    background-position: 50% 100%;
     color: whitesmoke;
 }
 
