@@ -16,7 +16,7 @@
     <title>Biwakowy</title>
 </head>
 <body>
-    <div class="wraper">
+    <div class="wrapper">
         <header>
             <img src="./assets/img/Logo_mobile.jpg" alt="logo as camping road sign" class="logo">
             <h1>Śpiewnik biwakowy</h1>
@@ -24,14 +24,22 @@
             <div class="menu">
                 <img src="./assets/Close.svg" alt="close button" class="close">
                 <ul>
-                    <li class="menu-item">Spis treści</li>
-                    <li class="menu-item">Wykonawcy</li>
-                    <li class="menu-item">Dodaj piosenkę</li>
-                    <li class="menu-item">Zaloguj</li>
+                    <li class="menu-item"><a href="#">Spis treści</a></li>
+                    <li class="menu-item"><a href="#">Wykonawcy</a></li>
+                    <li class="menu-item"><a href="#">Dodaj piosenkę</a></li>
+                    <li class="menu-item"><a href="#">Zaloguj</a></li>
                 </ul>
             </div>
         </header>
+        <section>
+            <div class="search-bar">
+                <input type="text" id="title" placeholder="Wpisz tytuł">
+                <button class="search-song"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <a href="#">Spis treści</a>
+            <br>
+            <a href="#">Wykonawcy</a>
+        </section>
     </div>
-    <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
 </body>
 </html>
