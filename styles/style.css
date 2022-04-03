@@ -72,28 +72,11 @@ transform: rotate(-360deg);
 }
 
 .hamburger:hover + nav {
-    /* animation: show-menu 0.3s ease-in-out;
-    animation-fill-mode: forwards;
-    animation-direction: alternate; */
     transform: scale(1.0);
     right: 0.5rem;
     top: 0.65rem;
     transition: all 0.3s ease-in-out;
 }
-
-/* @keyframes show-menu {
-    0% {
-        right: -15rem;
-        top: -20rem;
-        transform: scale(0);
-    }
-
-    100% {
-        right: 0.5rem;
-        top: 0.65rem;
-        transform: scale(1);
-    }
-} */
 
 nav {
     position: absolute;
