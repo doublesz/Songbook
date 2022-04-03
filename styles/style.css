@@ -37,9 +37,9 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50% 100%;
+    background-position: ;
     color: var(--font-color);
     font-size: var(--fs);
-    /* overflow-x: hidden; */
 }
 
 header {
@@ -53,8 +53,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* overflow-x: hidden;
-    overflow-y: visible; */
 }
 
 .banner p {
@@ -66,28 +64,43 @@ header {
 }
 
 .hamburger {
-    transition: transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
-.hamburger:hover {
+.hamburger:hover, .hamburger:hover + nav > .close {
 transform: rotate(-360deg);
 }
 
 .hamburger:hover + nav {
+    /* animation: show-menu 0.3s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-direction: alternate; */
+    transform: scale(1.0);
     right: 0.5rem;
     top: 0.65rem;
-    transform: scale(1.0);
     transition: all 0.3s ease-in-out;
 }
- /* chyba trzeba tu wstwaić keyframes */
+
+/* @keyframes show-menu {
+    0% {
+        right: -15rem;
+        top: -20rem;
+        transform: scale(0);
+    }
+
+    100% {
+        right: 0.5rem;
+        top: 0.65rem;
+        transform: scale(1);
+    }
+} */
+
 nav {
     position: absolute;
     display: flex;
     flex-direction: column;
     right: -15rem;
     top: -20rem;
-    /* right: 0.5rem;
-    top: 0.65rem; */
     border: 1px solid var(--border-color);
     box-shadow: 0 -2px 10px 1px var(--blur-color);
     border-radius: var(--radius);
@@ -113,12 +126,8 @@ nav ul li:last-child {
 
 .close {
     align-self: flex-end;
-    margin: 5px 5px 0 5px;
-    transition: all 0.3s ease-in-out;
-}
-
-.close:hover {
-    transform: rotate(360deg);
+    margin: 5px 5px 0;
+    transition: transform 0.3s ease-in-out;
 }
 
 section {
