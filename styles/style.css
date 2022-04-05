@@ -101,7 +101,7 @@ nav {
 }
 
 nav ul {
-    list-style: inside;
+    list-style: none;
     font-size: 1.1rem;
     font-weight: bold;
     line-height: 2.6rem;
@@ -122,7 +122,7 @@ nav ul li:last-child {
 .search-section {
     /* display: none; */
     width: 100%;
-    padding: 2rem 1rem;
+    padding: 1rem;
 }
 
 .search-bar {
