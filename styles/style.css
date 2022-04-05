@@ -82,7 +82,7 @@ transform: rotate(-360deg);
 .hamburger:hover + nav {
     transform-origin: top right;
     transform: scale(1.0);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out 0.1s;
 }
 
 nav {
