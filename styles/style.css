@@ -121,10 +121,8 @@ nav ul li:last-child {
 
 .search-section {
     /* display: none; */
-    display: grid;
-    grid-template-rows: auto auto auto;
     width: 100%;
-    padding: 5%;
+    padding: 2rem 1rem;
 }
 
 .search-bar {
