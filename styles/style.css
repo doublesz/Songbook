@@ -193,6 +193,10 @@ section a {
     text-transform: uppercase;
 }
 
-.lorem {
-    display: none;
+@media only screen
+and (orientation: landscape)
+and (min-width: 1000px) {
+    body {
+        background-image: url('../assets/img/bonfire_desktop.jpg');
+    }
 }
