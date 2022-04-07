@@ -196,6 +196,10 @@ section a {
 @media only screen
 and (orientation: landscape)
 and (min-width: 1000px) {
+    :root {
+        font-size: 18px;
+    }
+
     body {
         background-image: url('../assets/img/bonfire_desktop.jpg');
     }
