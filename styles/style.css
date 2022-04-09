@@ -115,7 +115,7 @@ nav ul {
     margin: 0 0 2rem 2rem;
 }
 
-nav ul li:last-child {
+nav ul li:nth-last-child(-n+2), nav ul span {
     display: none;
 }
 
@@ -254,9 +254,19 @@ and (min-width: 1000px) {
         letter-spacing: 0.05rem;
         margin: 0;
     }
+
+
     
-    nav ul li:last-child {
+    nav ul li:nth-last-child(-n+2), nav ul span {
         display: inherit;
+    }
+
+    nav ul li:nth-last-child(4) {
+        margin: 0 -1rem 0 0;
+    }
+
+    nav ul span {
+        margin-right: -1rem;
     }
 
     .close {
@@ -275,6 +285,14 @@ and (min-width: 1200px) {
     nav ul {
         gap: 2rem;
         font-size: 0.9rem;
+    }
+
+    nav ul li:nth-last-child(4) {
+        margin: 0 -1.5rem 0 0;
+    }
+
+    nav ul span {
+        margin-right: -1.5rem;
     }
 
 }
