@@ -32,8 +32,8 @@ html {
 
 body {
     font-family: var(--main-font), 'sans-serif';
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh;
+    width: 100vw; */
     background-color: var(--main-bg);
     background-image: url('../assets/img/bonfire_mobile.jpg');
     background-repeat: no-repeat;
@@ -69,6 +69,10 @@ header {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 0.1rem;
+}
+
+.logo-desktop {
+    display: none;
 }
 
 .hamburger {
@@ -193,8 +197,9 @@ section a {
     text-transform: uppercase;
 }
 
+/* Desktop */
+
 @media only screen
-and (orientation: landscape)
 and (min-width: 1000px) {
     :root {
         font-size: 18px;
@@ -203,4 +208,92 @@ and (min-width: 1000px) {
     body {
         background-image: url('../assets/img/bonfire_desktop.jpg');
     }
+
+    .banner {
+        padding: 0.5rem 1.1rem;
+        justify-content: space-around;
+    }
+
+    .banner p {
+        font-size: 1.3rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .logo-mobile {
+        display: none;
+    }
+
+    .logo-desktop {
+        display: inherit;
+        height: 2.7rem;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    nav {
+        position: static;
+        border: none;
+        box-shadow: none;
+        border-radius: none;
+        background-color: none;
+        width: auto;
+        transform: scale(1);
+        transition: none;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 1.2rem;
+        list-style: none;
+        font-size: 0.7rem;
+        font-weight: bold;
+        line-height: normal;
+        letter-spacing: 0.05rem;
+        margin: 0;
+    }
+    
+    nav ul li:last-child {
+        display: inherit;
+    }
+
+    .close {
+        display: none;
+    }
+}
+
+
+@media only screen
+and (min-width: 1200px) {
+
+    .banner p {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        gap: 2rem;
+        font-size: 0.9rem;
+    }
+
+}
+
+
+@media only screen
+and (min-width: 1500px) {
+
+    .banner p {
+        font-size: 2rem;
+        letter-spacing: 0.15rem;
+    }
+
+    .logo-desktop {
+        height: 3rem;
+    }
+
+    nav ul {
+        font-size: 1rem;
+    }
+
 }
