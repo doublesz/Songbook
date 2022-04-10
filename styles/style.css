@@ -126,7 +126,6 @@ nav ul li:nth-last-child(-n+2), nav ul span {
 }
 
 .search-section {
-    /* display: none; */
     width: 100%;
     padding: 1rem;
 }
@@ -165,12 +164,6 @@ nav ul li:nth-last-child(-n+2), nav ul span {
 
 .search-btn i {
     font-size: 1.2rem;
-}
-
-section a {
-    font-size: 1.5rem;
-    font-weight: bold;
-    line-height: 2.5rem;
 }
 
 .hero {
@@ -254,8 +247,6 @@ and (min-width: 1000px) {
         letter-spacing: 0.05rem;
         margin: 0;
     }
-
-
     
     nav ul li:nth-last-child(-n+2), nav ul span {
         display: inherit;
