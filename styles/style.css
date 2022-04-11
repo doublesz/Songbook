@@ -1,11 +1,12 @@
 :root {
     --main-bg: #0E1822;
-    --hero-bg: #0E182288;
+    --hero-bg: #0E182280;
     --header-bg: #1A3B3F;
-    --search-bg: #1A3B3F88;
+    --search-bg: #1A3B3F80;
     --border-color: #fff;
     --radius: 5px;
-    --blur-color: #f3a95340;
+    --blur-color: #f3a75140;
+    --text-shadow: #f3a75180;
     --font-color: #fff;
     --main-font: 'PT Sans';
     --serif-font: 'PT Serif';
@@ -235,6 +236,11 @@ and (min-width: 1000px) {
 
     nav ul li:nth-last-child(4) {
         margin: 0 -1rem 0 0;
+    }
+
+    nav ul li:hover {
+        text-decoration: underline;
+        text-shadow: 2px -2px 4px var(--text-shadow);
     }
 
     nav ul span {
