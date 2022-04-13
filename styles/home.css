@@ -25,7 +25,6 @@ and (min-width: 1000px) {
         text-transform: uppercase;
         letter-spacing: 0.1rem;
     }
-
 }
 
 
@@ -36,7 +35,6 @@ and (min-width: 1200px) {
         font-size: 2.5rem;
         letter-spacing: 0.15rem;
     }
-
 }
 
 
@@ -47,5 +45,4 @@ and (min-width: 1500px) {
         font-size: 3rem;
         letter-spacing: 0.2rem;
     }
-
 }
