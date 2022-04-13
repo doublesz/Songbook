@@ -164,9 +164,9 @@ nav ul li:nth-last-child(-n+2), nav ul span {
     font-size: 1.2rem;
 }
 
-.hero {
+/* .hero {
     display: none;
-}
+} */
 
 /* DESKTOP */
 
@@ -260,7 +260,7 @@ and (min-width: 1000px) {
         padding: 1rem;
     }
 
-    .hero {
+    /* .hero {
         display: initial;
         align-self: center;
         background-color: var(--hero-bg);
@@ -276,7 +276,7 @@ and (min-width: 1000px) {
         font-size: 2rem;
         text-transform: uppercase;
         letter-spacing: 0.1rem;
-    }
+    } */
 
 }
 
@@ -292,11 +292,11 @@ and (min-width: 1200px) {
         font-size: 0.9rem;
     }
 
-    .hero h1 {
+    /* .hero h1 {
         color: var(--font-color);
         font-size: 2.5rem;
         letter-spacing: 0.15rem;
-    }
+    } */
 
 }
 
@@ -322,10 +322,10 @@ and (min-width: 1500px) {
         top: 4rem;
     }
 
-    .hero h1 {
+    /* .hero h1 {
         color: var(--font-color);
         font-size: 3rem;
         letter-spacing: 0.2rem;
-    }
+    } */
 
 }
