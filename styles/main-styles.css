@@ -54,7 +54,6 @@ body {
 
 header {
     background-color: var(--header-bg);
-    position: relative;
 }
 
 .banner {
