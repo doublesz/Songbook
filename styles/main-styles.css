@@ -73,6 +73,10 @@ header {
     letter-spacing: 0.1rem;
 }
 
+.logo-desktop, .logo-mobile {
+    font-size: 0;
+}
+
 .logo-desktop {
     display: none;
 }
