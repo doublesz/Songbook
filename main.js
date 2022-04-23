@@ -1,6 +1,6 @@
 const chordsBtn = document.querySelector('.chords-btn');
 const chordsModal = document.querySelector('.chords');
-const closeChords = document.querySelector('.close-chords');
+const closeChords = document.querySelector('.chords .close');
 
 
 
