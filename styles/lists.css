@@ -14,14 +14,23 @@ header {
 .list {
     font-family: var(--serif-font);
     position: relative;
+    top: 5rem;
+}
+
+.list ul li {
+    margin-left: 1.5rem;
 }
 
 .list ul li:hover {
     cursor: default;
 }
 
-ul li {
-    margin-left: 1.5rem;
+.list > ul {
+    font-weight: bold;
+}
+
+ul>li>ul {
+    font-weight: normal;
 }
 
 .title {

@@ -4,6 +4,10 @@
     display: none;
 }
 
+.search-section {
+    display: initial;
+}
+
 /* DESKTOP */
 
 @media only screen
