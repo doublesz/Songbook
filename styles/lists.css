@@ -1,0 +1,87 @@
+@import url(./main-styles.css);
+
+body {
+    background-size: 100vw auto;
+    background-position: 30vw 100%;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+.list {
+    font-family: var(--serif-font);
+    position: relative;
+}
+
+.list ul li:hover {
+    cursor: default;
+}
+
+ul li {
+    margin-left: 1.5rem;
+}
+
+.title {
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.3rem;
+}
+
+@media screen 
+and (min-width: 450px)
+and (orientation: portrait) {
+    body {
+        background-size: 75vw auto;
+        background-position: 45vw 100%;
+    }
+
+    .chords {
+        left: 20rem;
+    }
+}
+
+@media (orientation: landscape) {
+    body {
+        background-size: contain;
+        background-position: 50% 100%;
+    }
+
+    .list {
+        width: 50vw;
+        left: 15vw;
+    }
+}
+
+/* DESKTOP */
+
+@media only screen
+and (min-width: 1000px) {
+    .list {
+        top: 5rem;
+    }
+}
+
+
+@media only screen
+and (min-width: 1200px) {
+    .list {
+        width: 30vw;
+    }
+}
+
+
+@media only screen
+and (min-width: 1500px) {
+    .list {
+        width: 25vw;
+    }
+
+    .title {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+}
