@@ -28,24 +28,25 @@ header {
     font-family: var(--serif-font);
     position: relative;
     margin-left: 1.5rem;
+    width: 70vw;
 }
 
 .chords .close {
     display: initial;
     width: 0.8rem;
     position: absolute;
-    right: 0.2rem;
-    top: 0.2rem;
+    right: -0.1rem;
+    top: -0.1rem;
 }
 
 .chords {
-    padding: 0.7rem 1.3rem 1.1rem 0.5rem;
+    padding: 0.7rem 1.1rem 1.1rem 0.5rem;
     margin-top: 2rem;
     font-size: 0.85rem;
     line-height: 1.2rem;
     letter-spacing: 1px;
     position: fixed;
-    left: 16rem;
+    left: 17rem;
     background-color: var(--hero-bg);
     box-shadow: 0 -2px 10px 2px var(--blur-color);
     border-radius: var(--radius);
@@ -57,7 +58,7 @@ header {
     font-weight: normal;
     text-align: center;
     line-height: 1.3rem;
-    margin-left: -1.5rem;
+    margin-left: 15vw;
 }
 
 .author {
@@ -97,7 +98,7 @@ and (orientation: portrait) {
     }
 
     .chords {
-        left: 25rem;
+        left: 26rem;
     }
 }
 
