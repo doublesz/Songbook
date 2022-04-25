@@ -14,7 +14,6 @@ header {
 .list {
     font-family: var(--serif-font);
     position: relative;
-    top: 5rem;
 }
 
 .list ul li {
