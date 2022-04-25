@@ -26,10 +26,16 @@ header {
 
 .list > ul {
     font-weight: bold;
+    margin-top: 1.5rem;
 }
 
-ul>li>ul {
+ul>li>ul>li {
     font-weight: normal;
+    margin-top: 0;
+}
+
+ul>li>ul>li:hover {
+    text-decoration: underline;
 }
 
 .title {
