@@ -3,11 +3,12 @@ const chordsModal = document.querySelector('.chords');
 const closeChords = document.querySelector('.chords .close');
 
 let vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty('--vh' `${vh}px`);
+document.documentElement.style.setProperty('--vh', `${vh}px`);
 
 window.addEventListener('resize', () => {
     let vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh' `${vh}px`);
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+    console.log(vh);
 });
 
 
