@@ -47,7 +47,7 @@ body {
     background-size: contain;
     color: var(--font-color);
     background-attachment: fixed;
-    background-position: 50% 90%;
+    background-position: center bottom;
 }
 
 .wrapper {
