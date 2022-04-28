@@ -45,9 +45,9 @@ body {
     background-image: url('../assets/img/bonfire_mobile.jpg');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: bottom center;
     color: var(--font-color);
     background-attachment: fixed;
+    background-position: 50% 90%;
 }
 
 .wrapper {
