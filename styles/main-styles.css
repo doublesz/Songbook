@@ -42,12 +42,7 @@ ul li:hover {
 body {
     font-family: var(--main-font), 'sans-serif';
     background-color: var(--main-bg);
-    /* background-image: url('../assets/img/bonfire_mobile.jpg'); */
-    /* background-repeat: no-repeat; */
-    /* background-size: contain; */
     color: var(--font-color);
-    /* background-attachment: fixed; */
-    /* background-position: center bottom; */
 }
 
 .bg-mobile, .bg-desktop {
@@ -63,7 +58,6 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    /* height: calc(var(--vh, 1vh) * 100); */
 }
 
 header {
@@ -196,10 +190,6 @@ and (min-width: 1000px) {
         font-size: 18px;
     }
 
-    body {
-        /* background-image: url('../assets/img/bonfire_desktop.jpg'); */
-    }
-
     .wrapper {
         gap: 15%;
     }
@@ -214,8 +204,13 @@ and (min-width: 1000px) {
         letter-spacing: 0.1rem;
     }
 
-    .logo-mobile {
+    .logo-mobile, .bg-mobile {
         display: none;
+    }
+
+    .bg-desktop {
+        display: inherit;
+        max-height: 95vh;
     }
 
     .logo-desktop {
