@@ -1,8 +1,7 @@
 @import url(./main-styles.css);
 
-body {
-    background-size: 100vw auto;
-    background-position: 30vw 100%;
+.bg-mobile, .bg-desktop {
+    right: -7rem;
 }
 
 header {
@@ -76,9 +75,9 @@ header {
 @media screen 
 and (min-width: 450px)
 and (orientation: portrait) {
-    body {
-        background-size: 75vw auto;
-        background-position: 45vw 100%;
+    .bg-mobile {
+        max-height: 95vh;
+        left: 25vw;
     }
 
     .chords {
@@ -87,9 +86,10 @@ and (orientation: portrait) {
 }
 
 @media (orientation: landscape) {
-    body {
-        background-size: contain;
-        background-position: 50% 100%;
+    .bg-mobile, .bg-desktop {
+        left: 45vw;
+        right: unset;
+        max-height: 95vh;
     }
 
     .song {
@@ -106,6 +106,11 @@ and (orientation: portrait) {
 
 @media only screen
 and (min-width: 1000px) {
+    .bg-desktop {
+        left: unset;
+        align-self: center;
+    }
+
     .song {
         top: 5rem;
     }
