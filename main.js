@@ -12,7 +12,7 @@ const searchSection = document.querySelector('.search-section');
 
 
 const toggleSearchSection = () => {
-    isSearchSectionDisplayNone() ? searchSection.style.display = 'inherit' : searchSection.style.display = 'none';
+    isSearchSectionDisplayNone() ? searchSection.style.display = 'inherit' : searchSection.style.display = '';
 }
 
 const isSearchSectionDisplayNone = () => {
