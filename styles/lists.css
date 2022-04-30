@@ -59,8 +59,7 @@ and (orientation: portrait) {
 
 @media (orientation: landscape) {
     .bg-mobile, .bg-desktop {
-        left: 45vw;
-        right: unset;
+        right: 20vw;
         max-height: 95vh;
     }
 
@@ -75,6 +74,7 @@ and (orientation: portrait) {
 @media only screen
 and (min-width: 1000px) {
     .bg-desktop {
+        right: unset;
         left: unset;
         align-self: center;
     }
