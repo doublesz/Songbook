@@ -2,10 +2,9 @@ const chordsBtn = document.querySelector('.chords-btn');
 const chordsModal = document.querySelector('.chords');
 const closeChords = document.querySelector('.chords .close');
 
-//to do
-// const tabsBtn = document.querySelector('.tabs-btn');
-// const tabsModal = document.querySelector('.tabs');
-// const tabsChords = document.querySelector('.tabs .close');
+const tabsBtn = document.querySelector('.tabs-btn');
+const tabsModal = document.querySelector('.tabs');
+const closeTabs = document.querySelector('.tabs .close');
 
 const toggleSearch = document.querySelector('.toggle-search');
 const searchSection = document.querySelector('.search-section');
@@ -34,3 +33,15 @@ const hideChords = () => {
 }
 
 closeChords.addEventListener('click', hideChords);
+
+const showTabs = () => {
+    tabsModal.style.display = 'initial';
+}
+
+tabsBtn.addEventListener('click', showTabs);
+
+const hideTabs = () => {
+    tabsModal.style.display = 'none';
+}
+
+closeTabs.addEventListener('click', hideTabs);
