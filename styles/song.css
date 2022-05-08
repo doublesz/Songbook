@@ -53,7 +53,7 @@ header {
 }
 
 .tabs {
-    top: 50%;
+    top: 50vh;
     left: unset;
     right: 3rem;
     background-color: var(--tabs-bg);
