@@ -54,8 +54,8 @@ header {
 
 .tabs {
     top: 50%;
-    left: 9rem;
-    overflow: scroll;
+    left: unset;
+    right: 3rem;
     background-color: var(--tabs-bg);
 }
 
@@ -93,6 +93,7 @@ and (orientation: portrait) {
 
     .tabs {
         left: 15rem;
+        right: unset;
     }
 }
 
@@ -112,9 +113,19 @@ and (orientation: portrait) {
     }
 
     .tabs {
-        position: fixed;
+        position: absolute;
         top: unset;
-        left: 32rem;
+        left: unset;
+        right: -10rem;
+    }
+}
+
+@media (orientation: landscape)
+and (min-height: 600px) {
+    .tabs {
+        position: fixed;
+        right: unset;
+        left: 33rem;
     }
 }
 
@@ -139,6 +150,9 @@ and (min-width: 1000px) {
 
     .chords {
         left: 30rem;
+    }
+    .tabs {
+        left: 35rem;
     }
 }
 
@@ -165,6 +179,10 @@ and (min-width: 1500px) {
     .chords {
         left: 40rem;
         letter-spacing: 2px;
+    }
+
+    .tabs {
+        left: 50rem;
     }
 
     .title {
