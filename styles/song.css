@@ -53,9 +53,11 @@ header {
 }
 
 .tabs {
-    top: 50vh;
+    text-align: center;
+    width: 80vw;
     left: unset;
-    right: 3rem;
+    right: 10vw;
+    bottom: 1rem;
     background-color: var(--tabs-bg);
 }
 
@@ -93,6 +95,7 @@ and (orientation: portrait) {
 
     .tabs {
         left: 15rem;
+        width: auto;
         right: unset;
     }
 }
@@ -114,8 +117,10 @@ and (orientation: portrait) {
 
     .tabs {
         position: absolute;
+        width: auto;
         top: unset;
         left: unset;
+        bottom: unset;
         right: -10rem;
     }
 }
@@ -153,6 +158,8 @@ and (min-width: 1000px) {
     }
     .tabs {
         left: 35rem;
+        right: unset;
+        width: auto;
     }
 }
 
