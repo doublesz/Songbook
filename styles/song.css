@@ -52,6 +52,10 @@ header {
     display: none;
 }
 
+.chords sup {
+    font-size: 0.5rem;
+}
+
 .tabs {
     text-align: center;
     width: 80vw;
