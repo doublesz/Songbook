@@ -80,6 +80,8 @@ header {
 }
 
 .lyrics {
+    white-space: pre-line;
+    margin-top: -1.2rem;
     font-size: 0.85rem;
     line-height: 1.2rem;
     margin-bottom: 75vh;
